@@ -1,6 +1,13 @@
+:root {
+  --primery-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --secondary-accent-color: #ffffff;
+}
+
 body {
   background-color: #ffffff;
-  color: ##757575;
+  color: var(--primery-text-color);
 }
 
 /* Цвет основного текста #212121 */
@@ -13,28 +20,48 @@ body {
   list-style: none;
 }
 .logo-link {
-  color: #212121;
+  color: var(--accent-color);
 }
 .logo {
-  color: #2196f3;
+  color: var(--title-text-color);
 }
 
 /* site-nav */
 .site-nav .link {
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /* contacts-link */
 .contacts-link .contact {
-  color: #757575;
+  color: var(--primery-text-color);
 }
 
 .contacts-link .contact:hover,
 .contacts-link .contact:focus {
-  color: #2196f3;
+  color: var(--accent-color);
+}
+
+/* section */
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* Features */
+.feature-list .title {
+  color: var(--title-text-color);
+}
+
+/* Projects */
+.project-list .title {
+  color: var(--secondary-accent-color);
+}
+
+/* Team */
+.team-list .title {
+  color: var(--title-text-color);
 }
