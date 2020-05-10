@@ -30,6 +30,7 @@ body {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 .logo {
   color: var(--title-text-color);
@@ -42,6 +43,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -56,6 +58,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .contacts-link .contact:hover,
@@ -65,13 +68,17 @@ body {
 
 /* Hero */
 .hero-title {
-  color: ;
+  color: var(--secondary-accent-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+}
+
+.hero .service {
+  text-decoration: none;
 }
 
 /* section */
@@ -129,6 +136,10 @@ body {
   letter-spacing: 0.03em;
 }
 
+.poject-list .project {
+  text-decoration: none;
+}
+
 /* Team */
 .team-list .title {
   color: var(--title-text-color);
@@ -145,6 +156,11 @@ body {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+/* Clients */
+.section-title .clients {
+  text-decoration: none;
 }
 
 /* Button */
@@ -168,4 +184,15 @@ body {
 .filter .buttom:hover,
 .filter .button:focus {
   color: var(--accent-color);
+}
+
+/* Futer */
+.address .info {
+  color: var(--primery-text-color);
+  text-decoration: none;
+}
+
+.social .info {
+  color: var(--primery-text-color);
+  text-decoration: none;
 }
