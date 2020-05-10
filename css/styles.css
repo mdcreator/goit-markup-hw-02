@@ -77,10 +77,6 @@ body {
   text-transform: uppercase;
 }
 
-.hero .service {
-  text-decoration: none;
-}
-
 /* section */
 .section-title {
   color: var(--title-text-color);
@@ -164,10 +160,11 @@ body {
 }
 
 /* Button */
-.button {
+.hero .button {
   background-color: var(--accent-color);
   color: var(--secondary-accent-color);
   font-family: inherit;
+  text-decoration: none;
 }
 
 .filter .button {
@@ -181,7 +178,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.filter .buttom:hover,
+.filter .button:hover,
 .filter .button:focus {
   color: var(--accent-color);
 }
