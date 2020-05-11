@@ -193,3 +193,8 @@ body {
   color: var(--primery-text-color);
   text-decoration: none;
 }
+
+.social .info:hover,
+.social .info:focus {
+  color: var(--accent-color);
+}
