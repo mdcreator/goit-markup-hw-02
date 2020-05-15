@@ -20,8 +20,22 @@ body {
 /* Футер rgba(255, 255, 255, 0.6) */
 
 .list {
+  padding: 0px;
+  margin: 0px;
   list-style: none;
 }
+
+/* Futer */
+.page-header {
+  outline: 1px solid var(--primery-text-color);
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1230px;
+}
+
 .logo-link {
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
@@ -36,22 +50,7 @@ body {
   color: var(--title-text-color);
 }
 
-.navigation-group {
-  width: 1230px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.contacts-group {
-  width: 1230px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-.section {
-  outline: 1px solid gray;
-}
-
-/* site-nav */
+/* site-nav  */
 .site-nav .link {
   color: var(--title-text-color);
   font-weight: 500;
@@ -84,8 +83,11 @@ body {
 /* Hero */
 .hero {
   background-color: thistle;
+  outline: 1px solid var(--primery-text-color);
 }
 .hero-title {
+  margin-top: 0px;
+  margin-bottom: 46px;
   color: var(--secondary-accent-color);
   font-weight: 900;
   font-size: 44px;
@@ -232,3 +234,21 @@ body {
 .social .info:focus {
   color: var(--accent-color);
 }
+
+.section {
+  outline: 1px solid gray;
+}
+
+/* .navigation-group {
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.contacts-group {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+} */
